@@ -1,4 +1,4 @@
-package com.robert;
+package controllers;
 
 public class scottishTaxPayer {
 

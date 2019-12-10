@@ -1,0 +1,186 @@
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:5:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class Controller[0m
+[0m[[0m[31merror[0m] [0m[0mController[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:6:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Result[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.CalculatorController[0m
+[0m[[0m[31merror[0m] [0m[0mResult[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:3:1: package play.mvc does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/HomeController.java:5:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class Controller[0m
+[0m[[0m[31merror[0m] [0m[0mController[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/HomeController.java:6:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Result[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mResult[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/HomeController.java:3:1: package play.mvc does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/MainController.java:5:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class Controller[0m
+[0m[[0m[31merror[0m] [0m[0mController[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/MainController.java:11:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Result[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.MainController[0m
+[0m[[0m[31merror[0m] [0m[0mResult[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/MainController.java:3:1: package play.mvc does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/RobController.java:6:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class Controller[0m
+[0m[[0m[31merror[0m] [0m[0mController[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/RobController.java:7:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Result[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.RobController[0m
+[0m[[0m[31merror[0m] [0m[0mResult[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/RobController.java:3:1: package play.mvc does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:29:1: package views.html does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mviews.html.errorpage[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:32:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.CalculatorController[0m
+[0m[[0m[31merror[0m] [0m[0mscottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:32:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.CalculatorController[0m
+[0m[[0m[31merror[0m] [0m[0mscottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:35:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class welshTaxpayer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.CalculatorController[0m
+[0m[[0m[31merror[0m] [0m[0mwelshTaxpayer[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:35:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class welshTaxpayer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.CalculatorController[0m
+[0m[[0m[31merror[0m] [0m[0mwelshTaxpayer[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:48:1: package views.html does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mviews.html.resultspage[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/HomeController.java:7:1: package views.html does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mviews.html.index[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/MainController.java:23:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method ok(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.MainController[0m
+[0m[[0m[31merror[0m] [0m[0mok[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/RobController.java:8:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method ok(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.RobController[0m
+[0m[[0m[31merror[0m] [0m[0mok[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:9:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:14:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:14:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:15:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:18:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:18:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:20:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:20:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:21:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:22:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:22:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:23:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:23:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:24:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:24:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:25:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:26:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:27:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:28:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:29:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:32:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:34:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:34:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:36:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:36:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:37:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:37:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:38:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:38:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:39:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/scottishTaxPayer.java:41:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable params[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.robert.scottishTaxPayer[0m
+[0m[[0m[31merror[0m] [0m[0mparams[0m

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/rob/Documents/Java-calc-2/calculator_rob-master/conf/routes
-// @DATE:Fri Dec 06 12:18:53 GMT 2019
+// @DATE:Tue Dec 10 09:44:32 GMT 2019
 
 
 package router {

@@ -44,7 +44,7 @@ Seq[Any](format.raw/*2.1*/("""
 
         </h1>
       </legend>
-
+// Tax year radio
       <div class="govuk-form-group">
         <fieldset class="govuk-fieldset">
           <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
@@ -54,39 +54,39 @@ Seq[Any](format.raw/*2.1*/("""
           </legend>
           <div class="govuk-radios">
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2015/2016">
-              <label class="govuk-label govuk-radios__label" for="taxyear">
+              <input class="govuk-radios__input" id="taxyear0" name="taxyear" type="radio" value="2015/2016">
+              <label class="govuk-label govuk-radios__label" for="taxyear0">
                 2015/2016
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2016/2017">
-              <label class="govuk-label govuk-radios__label" for="taxyear">
+              <input class="govuk-radios__input" id="taxyear1" name="taxyear" type="radio" value="2016/2017">
+              <label class="govuk-label govuk-radios__label" for="taxyear1">
                 2016/2017
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2017/2018">
-              <label class="govuk-label govuk-radios__label" for="taxyear">
+              <input class="govuk-radios__input" id="taxyear2" name="taxyear" type="radio" value="2017/2018">
+              <label class="govuk-label govuk-radios__label" for="taxyear2">
                 2017/2018
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2018/2019">
-              <label class="govuk-label govuk-radios__label" for="taxyear">
+              <input class="govuk-radios__input" id="taxyear3" name="taxyear" type="radio" value="2018/2019">
+              <label class="govuk-label govuk-radios__label" for="taxyear3">
                 2018/2019
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2019/2020">
-              <label class="govuk-label govuk-radios__label" for="taxyear">
+              <input class="govuk-radios__input" id="taxyear4" name="taxyear" type="radio" value="2019/2020">
+              <label class="govuk-label govuk-radios__label" for="taxyear4">
                 2019/2020
               </label>
             </div>
           </div>
         </fieldset>
       </div>
-
+//country radio
       <div class="govuk-form-group">
             <fieldset class="govuk-fieldset">
               <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
@@ -116,83 +116,73 @@ Seq[Any](format.raw/*2.1*/("""
               </div>
             </fieldset>
           </div>
-
+// total earnings input
       <div class="govuk-form-group">
         <label class="govuk-label" for="pretaxincome">
           Total earnings before tax taken off <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="pretaxincome" name="pretaxincome" type="number" value="80000">
       </div>
-
-      <div class="govuk-form-group">
-        <label class="govuk-label" for="pretaxincome">
-          Other income <span class="govuk-visually-hidden">line 1 of 2</span>
-        </label>
-        <input class="govuk-input" id="otherincome" name="otherincome" type="number" value="0">
-      </div>
-
+// tax paid on earnings input
       <div class="govuk-form-group">
         <label class="govuk-label" for="taxpaidonearnings">
           Total tax paid on earnings <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="taxpaidonearnings" name="taxpaidonearnings" type="number">
       </div>
-
+// interest paid on savings input
       <div class="govuk-form-group">
         <label class="govuk-label" for="interestonbank">
           Total interest paid on savings by UK bank or building society, after tax <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="interestonbank" name="interestonbank" type="number">
       </div>
-
+// tax paid on bank input
       <div class="govuk-form-group">
         <label class="govuk-label" for="taxonbank">
           Total tax paid on UK bank or building society interest <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="taxonbank" name="taxonbank" type="number">
       </div>
-
+// interest not taxed input
       <div class="govuk-form-group">
         <label class="govuk-label" for="untaxedinterest">
           UK interest that has not been taxed <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="untaxedinterest" name="untaxedinterest" type="number">
       </div>
-
+// gift aid donations input
       <div class="govuk-form-group">
         <label class="govuk-label" for="giftaid">
           Gift Aid donations during year <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
         <input class="govuk-input" id="giftaid" name="giftaid" type="number">
       </div>
-
+// blind person radio
       <div class="govuk-form-group">
-        <fieldset class="govuk-fieldset" aria-describedby="blindpersonallowance">
+        <fieldset class="govuk-fieldset" aria-describedby="bpa">
           <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
             <h1 class="govuk-fieldset__heading">
-              Receiving blind person's allowance
+              Are you eligible for Blind Persons Allowance?
             </h1>
           </legend>
           <div class="govuk-radios govuk-radios--inline">
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="blindperson" name="blindperson" type="radio" value="yes">
-              <label class="govuk-label govuk-radios__label" for="blindperson">
+              <input class="govuk-radios__input" id="blind-yes" name="blindperson" type="radio" value="yes">
+              <label class="govuk-label govuk-radios__label" for="blind-yes">
                 Yes
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="notblind" name="notblind" type="radio" value="no">
-              <label class="govuk-label govuk-radios__label" for="notblind">
+              <input class="govuk-radios__input" id="blind-no" name="blindperson" type="radio" value="no">
+              <label class="govuk-label govuk-radios__label" for="blind-no">
                 No
               </label>
             </div>
           </div>
         </fieldset>
       </div>
-
-
-
-
+// submit and reset buttons
       <button class="govuk-button govuk-!-margin-right-1" data-module="govuk-button">
         Submit
       </button>
@@ -204,9 +194,9 @@ Seq[Any](format.raw/*2.1*/("""
     </fieldset>
   </form>
 </section>
-""")))}),format.raw/*176.2*/("""
-""")))}),format.raw/*177.2*/("""
-"""),format.raw/*178.1*/("""</body>"""))
+""")))}),format.raw/*166.2*/("""
+""")))}),format.raw/*167.2*/("""
+"""),format.raw/*168.1*/("""</body>"""))
       }
     }
   }
@@ -222,11 +212,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-12-06T12:17:06.530991
+                  DATE: 2019-12-10T09:59:32.445351
                   SOURCE: /home/rob/Documents/Java-calc-2/calculator_rob-master/app/views/index.scala.html
-                  HASH: f2222e5fc19cb6b09fbc9e75505a431fa643de06
-                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8450->7220|8483->7222|8512->7223
-                  LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|37->6|207->176|208->177|209->178
+                  HASH: e3807c47fe9dc1090f126edd018b7ecc5fb51ebb
+                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8397->7167|8430->7169|8459->7170
+                  LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|37->6|197->166|198->167|199->168
                   -- GENERATED --
               */
           

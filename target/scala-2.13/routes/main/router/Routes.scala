@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/rob/Documents/Java-calc-2/calculator_rob-master/conf/routes
-// @DATE:Fri Dec 06 12:18:53 GMT 2019
+// @DATE:Tue Dec 10 09:44:32 GMT 2019
 
 package router
 
@@ -49,7 +49,7 @@ class Routes(
 
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """calculator""", """controllers.CalculatorController.calculator(pretaxincome:Double, otherincome:Double, taxyear:String, wheredoyoulive:String, blindpersonallowance:Double)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """calculator""", """controllers.CalculatorController.calculator(pretaxincome:Double, taxyear:String, wheredoyoulive:String, blindperson:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """rob""", """controllers.RobController.rob"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
@@ -82,12 +82,12 @@ class Routes(
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("calculator")))
   )
   private[this] lazy val controllers_CalculatorController_calculator1_invoker = createInvoker(
-    CalculatorController_0.calculator(fakeValue[Double], fakeValue[Double], fakeValue[String], fakeValue[String], fakeValue[Double]),
+    CalculatorController_0.calculator(fakeValue[Double], fakeValue[String], fakeValue[String], fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.CalculatorController",
       "calculator",
-      Seq(classOf[Double], classOf[Double], classOf[String], classOf[String], classOf[Double]),
+      Seq(classOf[Double], classOf[String], classOf[String], classOf[String]),
       "GET",
       this.prefix + """calculator""",
       """""",
@@ -142,8 +142,8 @@ class Routes(
   
     // @LINE:7
     case controllers_CalculatorController_calculator1_route(params@_) =>
-      call(params.fromQuery[Double]("pretaxincome", None), params.fromQuery[Double]("otherincome", None), params.fromQuery[String]("taxyear", None), params.fromQuery[String]("wheredoyoulive", None), params.fromQuery[Double]("blindpersonallowance", None)) { (pretaxincome, otherincome, taxyear, wheredoyoulive, blindpersonallowance) =>
-        controllers_CalculatorController_calculator1_invoker.call(CalculatorController_0.calculator(pretaxincome, otherincome, taxyear, wheredoyoulive, blindpersonallowance))
+      call(params.fromQuery[Double]("pretaxincome", None), params.fromQuery[String]("taxyear", None), params.fromQuery[String]("wheredoyoulive", None), params.fromQuery[String]("blindperson", None)) { (pretaxincome, taxyear, wheredoyoulive, blindperson) =>
+        controllers_CalculatorController_calculator1_invoker.call(CalculatorController_0.calculator(pretaxincome, taxyear, wheredoyoulive, blindperson))
       }
   
     // @LINE:8

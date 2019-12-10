@@ -3,8 +3,8 @@ package controllers;
 import play.mvc.*;
 
 public class CalculatorController extends Controller {
-    public Result calculator(double pretaxincome, double otherincome, String taxyear,
-    String wheredoyoulive, double blindpersonallowance) {
+    public Result calculator(double pretaxincome, String taxyear,
+    String wheredoyoulive, String blindperson) {
 
         int txyr = 0;
         double MINFORCALCULATOR = 0;
@@ -12,6 +12,13 @@ public class CalculatorController extends Controller {
         int SCOTTISHOWNTAX = 1;
         int WELSHOWNTAX = 4;
         double afterTax = 0.0;
+        boolean blindpersonboolean;
+
+        if(blindperson == "yes"){
+            blindpersonboolean = true;
+        }else {
+            blindpersonboolean = false;
+        }
 
 
         if (taxyear == "2015/2016") {
@@ -25,26 +32,26 @@ public class CalculatorController extends Controller {
         } else if (taxyear == "2019/2020") {
             txyr = 5;
         }
-        while (pretaxincome <= MINFORCALCULATOR || pretaxincome > MAXFORCALCULATOR) {
+        while (pretaxincome < MINFORCALCULATOR || pretaxincome > MAXFORCALCULATOR) {
             return ok(views.html.errorpage.render("Your total earnings before tax must be between £0 and £99999"));
         }
         if (wheredoyoulive == "Scotland" && txyr > SCOTTISHOWNTAX){
             scottishTaxPayer scotTax = new scottishTaxPayer();
-            afterTax = scotTax.CalcScotAfterTaxIncome(pretaxincome, txyr, blindpersonallowance);
+            afterTax = scotTax.CalcScotAfterTaxIncome(pretaxincome, txyr, blindpersonboolean);
         } else if (wheredoyoulive == "Wales" && txyr > WELSHOWNTAX){
             welshTaxpayer welshTax = new welshTaxpayer();
-            afterTax = welshTax.calcWelshAfterTaxIncome(pretaxincome,  txyr, blindpersonallowance);
+            afterTax = welshTax.calcWelshAfterTaxIncome(pretaxincome,  txyr, blindpersonboolean);
         }else {
+            englishTaxPayer englishTax = new englishTaxPayer();
+            afterTax = englishTax.calcEnglishAfterTaxIncome(pretaxincome, txyr, blindpersonboolean);
 
         }
-    
 
 
 
 
 
 
-
-        return ok(views.html.resultspage.render(afterTax));
+        return ok(views.html.resultspage.render("After tax: " + afterTax));
     }
 }

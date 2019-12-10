@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/rob/Documents/Java-calc-2/calculator_rob-master/conf/routes
-// @DATE:Fri Dec 06 12:18:53 GMT 2019
+// @DATE:Tue Dec 10 09:44:32 GMT 2019
 
 import play.api.mvc.Call
 
@@ -64,9 +64,9 @@ package controllers {
 
   
     // @LINE:7
-    def calculator(pretaxincome:Double, otherincome:Double, taxyear:String, wheredoyoulive:String, blindpersonallowance:Double): Call = {
+    def calculator(pretaxincome:Double, taxyear:String, wheredoyoulive:String, blindperson:String): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "calculator" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[Double]].unbind("pretaxincome", pretaxincome)), Some(implicitly[play.api.mvc.QueryStringBindable[Double]].unbind("otherincome", otherincome)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("taxyear", taxyear)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("wheredoyoulive", wheredoyoulive)), Some(implicitly[play.api.mvc.QueryStringBindable[Double]].unbind("blindpersonallowance", blindpersonallowance)))))
+      Call("GET", _prefix + { _defaultPrefix } + "calculator" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[Double]].unbind("pretaxincome", pretaxincome)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("taxyear", taxyear)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("wheredoyoulive", wheredoyoulive)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("blindperson", blindperson)))))
     }
   
   }

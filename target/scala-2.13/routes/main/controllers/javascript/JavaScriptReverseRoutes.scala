@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/rob/Documents/Java-calc-2/calculator_rob-master/conf/routes
-// @DATE:Fri Dec 06 12:18:53 GMT 2019
+// @DATE:Tue Dec 10 09:44:32 GMT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -83,8 +83,8 @@ package controllers.javascript {
     def calculator: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CalculatorController.calculator",
       """
-        function(pretaxincome0,otherincome1,taxyear2,wheredoyoulive3,blindpersonallowance4) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "calculator" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[Double]].javascriptUnbind + """)("pretaxincome", pretaxincome0), (""" + implicitly[play.api.mvc.QueryStringBindable[Double]].javascriptUnbind + """)("otherincome", otherincome1), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("taxyear", taxyear2), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("wheredoyoulive", wheredoyoulive3), (""" + implicitly[play.api.mvc.QueryStringBindable[Double]].javascriptUnbind + """)("blindpersonallowance", blindpersonallowance4)])})
+        function(pretaxincome0,taxyear1,wheredoyoulive2,blindperson3) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "calculator" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[Double]].javascriptUnbind + """)("pretaxincome", pretaxincome0), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("taxyear", taxyear1), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("wheredoyoulive", wheredoyoulive2), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("blindperson", blindperson3)])})
         }
       """
     )
