@@ -96,19 +96,19 @@ Seq[Any](format.raw/*2.1*/("""
               </legend>
               <div class="govuk-radios">
                 <div class="govuk-radios__item">
-                  <input class="govuk-radios__input" id="wheredoyoulive" name="wheredoyoulive" type="radio" value="england">
-                  <label class="govuk-label govuk-radios__label" for="wheredoyoulive">
+                  <input class="govuk-radios__input" id="wheredoyoulive1" name="wheredoyoulive" type="radio" value="England">
+                  <label class="govuk-label govuk-radios__label" for="wheredoyoulive1">
                     England
                   </label>
                 </div>
                 <div class="govuk-radios__item">
-                  <input class="govuk-radios__input" id="wheredoyoulive2" name="wheredoyoulive" type="radio" value="scotland">
+                  <input class="govuk-radios__input" id="wheredoyoulive2" name="wheredoyoulive" type="radio" value="Scotland">
                   <label class="govuk-label govuk-radios__label" for="wheredoyoulive2">
                     Scotland
                   </label>
                 </div>
                 <div class="govuk-radios__item">
-                  <input class="govuk-radios__input" id="wheredoyoulive3" name="wheredoyoulive" type="radio" value="wales">
+                  <input class="govuk-radios__input" id="wheredoyoulive3" name="wheredoyoulive" type="radio" value="Wales">
                   <label class="govuk-label govuk-radios__label" for="wheredoyoulive3">
                     Wales
                   </label>
@@ -121,7 +121,7 @@ Seq[Any](format.raw/*2.1*/("""
         <label class="govuk-label" for="pretaxincome">
           Total earnings before tax taken off <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
-        <input class="govuk-input" id="pretaxincome" name="pretaxincome" type="number" value="80000">
+        <input class="govuk-input" id="pretaxincome" name="pretaxincome" type="number" value= int>
       </div>
 // tax paid on earnings input
       <div class="govuk-form-group">
@@ -132,10 +132,10 @@ Seq[Any](format.raw/*2.1*/("""
       </div>
 // interest paid on savings input
       <div class="govuk-form-group">
-        <label class="govuk-label" for="interestonbank">
+        <label class="govuk-label" for="interestpaidbybank">
           Total interest paid on savings by UK bank or building society, after tax <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
-        <input class="govuk-input" id="interestonbank" name="interestonbank" type="number">
+        <input class="govuk-input" id="interestpaidbybank" name="interestpaidbybank" type="number">
       </div>
 // tax paid on bank input
       <div class="govuk-form-group">
@@ -212,10 +212,10 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-12-10T09:59:32.445351
-                  SOURCE: /home/rob/Documents/Java-calc-2/calculator_rob-master/app/views/index.scala.html
-                  HASH: e3807c47fe9dc1090f126edd018b7ecc5fb51ebb
-                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8397->7167|8430->7169|8459->7170
+                  DATE: 2020-02-26T15:34:15.634538
+                  SOURCE: /home/rob/Documents/tax-calculator-project/Java-calc-2/calculator_rob-master/app/views/index.scala.html
+                  HASH: dfd5f6db54e3744a0cbd1b04fc74221a7ecf0f27
+                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8408->7178|8441->7180|8470->7181
                   LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|37->6|197->166|198->167|199->168
                   -- GENERATED --
               */

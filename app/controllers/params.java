@@ -52,7 +52,12 @@ public class params {
             {0, 0, 0, 6490.30, 6350.37},
             {0, 0, 0, 28703.69, 28539.16}
     };
-    public static double [] blindPersonsAllowanceAmounts = {2348, 2320, 2290, 2390, 2450};
+    public static double [] blindPersonsAllowanceAmounts = {2290, 2290, 2320, 2390, 2450};
 
-};
+    public static double [] blindPersonsAllowanceEnglishTwentyPercent= {6357, 6400, 6700, 6900, 7500
+    };
+
+   
+}
+
 

@@ -4,11 +4,7 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
-GET     /calculator                 controllers.CalculatorController.calculator( pretaxincome: Double, taxyear: String, wheredoyoulive: String, blindperson: String)
-GET     /rob                        controllers.RobController.rob
-#GET     /fullcalculator             controllers.MainController.fullcalculator(pretaxincome: Double, taxyear: int,
-#country: int, taxpaidonearnings: Double, interestpaidonsavings: Double, taxpaidbankinterest: Double,
-#untaxedinterest: double, paidgiftaid: double, blindpersonsallownace : boolean)
+GET     /calculator                 controllers.CalculatorController.calculator( pretaxincome: Double, taxyear: String, wheredoyoulive: String, blindperson: String, interestpaidbybank: Double, taxonbank: Double, untaxedinterest: Double, giftaid: Double)
 
 
 

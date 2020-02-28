@@ -1,3 +1,3 @@
-[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:54:1: ')' expected[0m
-[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:54:1: not a statement[0m
-[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/Java-calc-2/calculator_rob-master/app/controllers/CalculatorController.java:54:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rob/Documents/tax-calculator-project/Java-calc-2/calculator_rob-master/conf/routes:7:1: 4 more arguments than can be applied to method calculator: (x$1: Double, x$2: String, x$3: String, x$4: String)play.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /calculator                 controllers.CalculatorController.calculator( pretaxincome: Double, taxyear: String, wheredoyoulive: String, blindperson: String, interestpaidbybank: Double, taxonbank: Double, untaxedinterest: Double, giftaid: Double)[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
